@@ -1,0 +1,797 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner&family=Praise&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+.home {
+    height: 80vh;
+    width: 1200px;
+    margin-top: -20px;
+    margin-left: -20px;
+    background-image: url(back.png);
+}
+
+.home h3 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 8px;
+    color: white;
+    margin-top: -14px;
+    margin-left: 142px;
+}
+
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    position: sticky;
+}
+
+.nav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+nav .onglets {
+    display: inline-block;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px;
+    position: sticky;
+    font-size: 20px;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    margin-left: 120px;
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+    color: rgb(173, 152, 120);
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    margin-left: 120px;
+}
+
+nav ul li a img {
+    height: 100px;
+    width: 200px;
+    margin-top: 50px;
+}
+
+.end {
+    background: linear-gradient(rgb(59, 59, 59), rgb(0, 0, 0));
+    width: 1200px;
+    height: 50vh;
+    margin-top: 320px;
+    margin-left: -20px;
+    margin-bottom: -20px;
+}
+
+.end img {
+    height: 100px;
+    width: 200px;
+    margin-left: 502px;
+}
+
+.end h3 {
+    margin-left: 523px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 8px;
+    color: white;
+    margin-top: -14px;
+}
+
+.address {
+    margin-left: 522px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 12px;
+    color: white;
+    margin-top: 50px;
+}
+
+.mail {
+    margin-left: 560px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 12px;
+    color: white;
+}
+
+.phone {
+    margin-left: 560px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 12px;
+    color: white;
+}
+
+.icons {
+    list-style: none;
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 450px;
+    color: rgb(173, 152, 120);
+}
+
+.icons i {
+    margin-left: 50px;
+}
+
+hr {
+    border: none;
+    border-top: 7px double rgb(173, 152, 120);
+    color: rgb(173, 152, 120);
+    overflow: visible;
+    text-align: center;
+    height: 7px;
+}
+
+hr:after {
+    background: #fff;
+    padding: 0 4px;
+    position: relative;
+    top: -13px;
+}
+
+.home h1 {
+    margin-left: 200px;
+    font-family: 'Oswald', sans-serif;
+    margin-top: 30px;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+}
+
+.inventory {
+    height: 150vh;
+    width: 1200px;
+    background-color: white;
+    margin-top: -20px;
+    margin-left: -20px;
+}
+
+.wanted {
+    height: 150vh;
+    width: 1200px;
+    background-color: white;
+    margin-top: -20px;
+    margin-left: -20px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+HK&display=swap');
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Noto Sans HK', sans-serif;
+    background: #fff;
+}
+
+.slider {
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.slider .owl-item.active.center .slider-card {
+    transform: scale(1.15);
+    opacity: 1;
+    background: #ff9966;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #ff5e62, #ff9966);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #ff5e62, #ff9966);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #fff;
+}
+
+.slider-card {
+    background: #fff;
+    padding: 0px 0px;
+    margin: 50px 15px 90px 15px;
+    border-radius: 5px;
+    box-shadow: 0 15px 45px -20px rgb(0 0 0 / 73%);
+    transform: scale(0.9);
+    opacity: 0.5;
+    transition: all 0.3s;
+}
+
+.slider-card img {
+    border-radius: 5px 5px 0px 0px;
+}
+
+.owl-nav .owl-prev {
+    position: absolute;
+    top: calc(50% - 25px);
+    left: 0;
+    opacity: 1;
+    font-size: 30px !important;
+    z-index: 1;
+}
+
+.owl-nav .owl-next {
+    position: absolute;
+    top: calc(50% - 25px);
+    right: 0;
+    opacity: 1;
+    font-size: 30px !important;
+    z-index: 1;
+}
+
+.owl-dots {
+    text-align: center;
+}
+
+.owl-dots .owl-dot {
+    height: 10px;
+    width: 10px;
+    border-radius: 10px;
+    background: #ccc !important;
+    margin-left: 3px;
+    margin-right: 3px;
+    outline: none;
+}
+
+.owl-dots .owl-dot.active {
+    background: #f44336 !important;
+}
+
+.icon p {
+    margin-left: 610px;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+/* styling background image */
+
+.bg-img {
+    width: 1000px;
+    height: 800px;
+    margin-left: 80px;
+}
+
+.wanted h1 {
+    margin-top: 30px;
+    margin-left: 500px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 60px;
+    color: rgb(173, 152, 120);
+}
+
+
+/* Styling the form container */
+
+.container {
+    position: relative;
+    background-size: cover;
+    left: 28px;
+    top: 50px;
+    margin: 20px;
+    padding: 16px;
+}
+
+
+/* Full-width input */
+
+input[type=text],
+input[type=password] {
+    width: 50%;
+    padding: 15px;
+    color: rgb(173, 152, 120);
+    border-radius: 20px;
+    font-family: 'Oswald', sans-serif;
+    border: 0px
+}
+
+
+/* Styling the submit button */
+
+.button {
+    padding: 16px 16px;
+    border: none;
+    cursor: pointer;
+    width: 30%;
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    margin-left: 25%;
+    background-color: rgb(173, 152, 120);
+}
+
+.button:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s;
+    border-radius: 20px;
+}
+
+.downArrow p {
+    position: relative;
+    left: 50%;
+    margin-top: 20px;
+    color: white;
+    font-size: 40px;
+}
+
+.upArrow p {
+    position: fixed;
+    left: 50%;
+    margin-top: 78px;
+    margin-left: 545px;
+    color: rgb(173, 152, 120);
+    font-size: 25px;
+}
+
+.bounce {
+    -moz-animation: bounce 3s infinite;
+    -webkit-animation: bounce 3s infinite;
+    animation: bounce 3s infinite;
+}
+
+@-moz-keyframes bounce {
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+        -moz-transform: translateY(0);
+        transform: translateY(0);
+    }
+    40% {
+        -moz-transform: translateY(-30px);
+        transform: translateY(-30px);
+    }
+    60% {
+        -moz-transform: translateY(-15px);
+        transform: translateY(-15px);
+    }
+}
+
+@-webkit-keyframes bounce {
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+    40% {
+        -webkit-transform: translateY(-30px);
+        transform: translateY(-30px);
+    }
+    60% {
+        -webkit-transform: translateY(-15px);
+        transform: translateY(-15px);
+    }
+}
+
+@keyframes bounce {
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+        -moz-transform: translateY(0);
+        -ms-transform: translateY(0);
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+    40% {
+        -moz-transform: translateY(-30px);
+        -ms-transform: translateY(-30px);
+        -webkit-transform: translateY(-30px);
+        transform: translateY(-30px);
+    }
+    60% {
+        -moz-transform: translateY(-15px);
+        -ms-transform: translateY(-15px);
+        -webkit-transform: translateY(-15px);
+        transform: translateY(-15px);
+    }
+}
+
+
+/* Demo Purpose Only*/
+
+.demo {
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+    display: block;
+    margin: 0 auto;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.demo a {
+    font-family: 'Raleway', sans-serif;
+    color: #2ecc71;
+}
+
+.company {
+    height: 200vh;
+}
+
+.company h1 {
+    margin-left: 480px;
+    margin-top: 30px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 60px;
+    color: rgb(173, 152, 120);
+}
+
+.company p {
+    margin-left: 120px;
+    margin-top: 30px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+
+.card_ {
+    height: 440px;
+    width: 200px;
+    border-radius: 10px;
+    justify-content: center;
+    position: relative;
+    margin-left: 290px;
+    margin-top: 30px;
+}
+
+.card_ h3 {
+    margin-left: 40px;
+    overflow: hidden;
+}
+
+.border_ {
+    height: 440px;
+    width: 300px;
+    border-radius: 10px;
+    transition: all 1s;
+    position: relative;
+    margin-left: 150px;
+    background-image: url(im1.jpg);
+    background-size: 300px;
+    float: left;
+    margin-bottom: 200px;
+    filter: grayscale(10);
+}
+
+.border_:hover {
+    float: left;
+    height: 440px;
+    width: 300px;
+    border-radius: 10px;
+    transition: all 2s;
+    position: relative;
+    margin-left: 150px;
+    background-image: url(im2.jpg);
+    background-size: 300px;
+    filter: grayscale(0);
+}
+
+.card_ h2 {
+    color: rgb(173, 152, 120);
+    margin-top: 380px;
+    margin-left: 35px;
+    opacity: 0;
+    transition: all 1s;
+    font-family: 'Oswald', sans-serif;
+    font-style: italic;
+    font-size: 30px;
+}
+
+.border_ p {
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    margin-left: -2px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.border_ p :hover {
+    color: rgb(0, 0, 0);
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    margin-left: -2px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.fab {
+    opacity: 0;
+    transition: all 1s;
+}
+
+.linkledin p {
+    position: absolute;
+    font-size: 40px;
+}
+
+a {
+    color: rgb(173, 152, 120);
+}
+
+.card_:hover h2 {
+    opacity: 1;
+}
+
+.card_:hover .fab {
+    opacity: 1;
+}
+
+.text {
+    margin-left: 700px;
+    float: left;
+    margin-top: -20px;
+}
+
+.text h2 {
+    margin-left: 200px;
+    margin-top: 80px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+}
+
+.text p {
+    margin-left: 200px;
+    margin-top: 30px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+
+.inventory h1 {
+    margin-left: 450px;
+    margin-top: -30PX;
+    font-family: 'Oswald', sans-serif;
+    font-size: 60px;
+    color: rgb(173, 152, 120);
+}
+
+.text h2 {
+    margin-left: 20px;
+    margin-top: 30px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    color: rgb(173, 152, 120);
+}
+
+.text p {
+    margin-left: 20px;
+    margin-top: 30px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+
+.rows {
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+
+.rows img {
+    width: 400px;
+    height: 400px;
+    margin-left: 100px;
+    display: block;
+    margin: auto;
+}
+
+.form {
+    float: right;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 0 5px 5px 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+HK&display=swap');
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Noto Sans HK', sans-serif;
+    background: #fff;
+}
+
+.slider {
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.slider .owl-item.active.center .slider-card {
+    transform: scale(1.15);
+    opacity: 1;
+    background: #ff9966;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #ff5e62, #ff9966);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #ff5e62, #ff9966);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #fff;
+}
+
+.slider-card {
+    background: #fff;
+    padding: 0px 0px;
+    margin: 50px 15px 90px 15px;
+    border-radius: 5px;
+    box-shadow: 0 15px 45px -20px rgb(0 0 0 / 73%);
+    transform: scale(0.9);
+    opacity: 0.5;
+    transition: all 0.3s;
+}
+
+.slider-card img {
+    border-radius: 5px 5px 0px 0px;
+}
+
+.owl-nav .owl-prev {
+    position: absolute;
+    top: calc(50% - 25px);
+    left: 0;
+    opacity: 1;
+    font-size: 30px !important;
+    z-index: 1;
+}
+
+.owl-nav .owl-next {
+    position: absolute;
+    top: calc(50% - 25px);
+    right: 0;
+    opacity: 1;
+    font-size: 30px !important;
+    z-index: 1;
+}
+
+.owl-dots {
+    text-align: center;
+}
+
+.owl-dots .owl-dot {
+    height: 10px;
+    width: 10px;
+    border-radius: 10px;
+    background: #ccc !important;
+    margin-left: 3px;
+    margin-right: 3px;
+    outline: none;
+}
+
+.owl-dots .owl-dot.active {
+    background: #f44336 !important;
+}
+
+.card {
+    height: 300px;
+    width: 500px;
+    border-radius: 10px;
+    transition: all 0.8s;
+    overflow: hidden;
+    box-shadow: 0 70px 63px -60px #000000;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    display: inline-block;
+    margin-left: 70px;
+    margin-top: 50px;
+}
+
+.border {
+    height: 300px;
+    width: 500px;
+    border-radius: 10px;
+    transition: all 1s;
+    position: relative;
+}
+
+.border:hover {
+    border: 1px solid rgb(173, 152, 120);
+}
+
+.card-1 {
+    background: url(2015_DASSAULT_FALCON_2000LXS.jpeg) center center no-repeat;
+    background-size: 600px;
+}
+
+.card-1:hover {
+    background: white;
+    background-size: 600px;
+}
+
+.card-2 {
+    background: url(2007_GULFSTREAM_G450_.jpg) center center no-repeat;
+    background-size: 600px;
+}
+
+.card-2:hover {
+    background: white;
+    background-size: 560px;
+}
+
+.card-3 {
+    background: url(2016_Embraer_Phenom_300.jpg) center center no-repeat;
+    background-size: 600px;
+}
+
+.card-3:hover {
+    background: white;
+    background-size: 560px;
+}
+
+.card-4 {
+    background: url(embraer_praetor_500.jpeg) center center no-repeat;
+    background-size: 600px;
+}
+
+.card-4:hover {
+    background: white;
+    background-size: 560px;
+}
+
+.card h2 {
+    color: rgb(0, 0, 0);
+    margin-top: 10px;
+    margin-left: 10%;
+    opacity: 0;
+    transition: all 1s;
+    font-family: 'Oswald', sans-serif;
+    font-style: italic;
+    font-size: 20px;
+}
+
+.card p {
+    color: rgb(255, 255, 255);
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    margin-left: 10%;
+}
+
+.fab {
+    opacity: 0;
+    transition: all 1s;
+}
+
+a {
+    color: rgb(173, 152, 120);
+}
+
+.card:hover h2 {
+    opacity: 1;
+}
+
+.card:hover p {
+    opacity: 1;
+    color: rgb(173, 152, 120);
+}
+
+.card:hover .fab {
+    opacity: 1;
+}
+
+.card_1 {
+    background: url();
+    background-size: 600px;
+}
+
+.card_1:hover {
+    background: url();
+    background-size: 600px;
+}
